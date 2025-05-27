@@ -3,107 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ShopnPetCare | Premium Pet Products</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #fffaf4;
-      color: #333;
-    }
-    header {
-      text-align: center;
-      padding: 2rem 1rem;
-      background: #f8e9d1;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      color: #543c1c;
-    }
-    .subtitle {
-      font-size: 1.2rem;
-      color: #6a5d45;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 2rem;
-      padding: 2rem;
-    }
-    .product {
-      background: #fff;
-      padding: 1rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .product img {
-      max-width: 100%;
-      border-radius: 10px;
-    }
-    .product h3 {
-      color: #3e2f1c;
-    }
-    .product p {
-      font-size: 0.95rem;
-    }
-    .product a {
-      display: inline-block;
-      margin-top: 0.5rem;
-      padding: 0.5rem 1rem;
-      background: #ff7c59;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    footer {
-      background: #543c1c;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-    }
-  </style>
+  <title>Shopnpetcare | Pet Training Courses</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>🐾 ShopnPetCare</h1>
-    <p class="subtitle">Curated premium products for your beloved pet</p>
-  </header>
-
-  <section class="products">
-    <div class="product">
-      <img src="https://cdn.shopify.com/s/files/1/0554/4654/7840/files/pet-cbd-bacon-oil-dog_750x.jpg?v=1622571035" alt="CBD Oil for Dogs">
-      <h3>Paw CBD Bacon Oil</h3>
-      <p>Calm your dog’s anxiety with this tasty bacon-flavored CBD oil for pets.</p>
-      <a href="https://paw.pxf.io/Bneov1" target="_blank">Buy Now</a>
-    </div>
-
-    <div class="product">
-      <img src="https://cdn.shopify.com/s/files/1/0554/4654/7840/products/pawcbd-chicken-cat-treats_750x.jpg?v=1622571472" alt="CBD Treats for Cats">
-      <h3>Paw CBD Cat Treats</h3>
-      <p>Delicious chicken-flavored treats infused with CBD to keep your cat chill and happy.</p>
-      <a href="https://paw.pxf.io/Bneov1" target="_blank">Buy Now</a>
-    </div>
-
-    <div class="product">
-      <img src="https://cdn.shopify.com/s/files/1/0554/4654/7840/products/calming-chews-pet-cbd_750x.jpg?v=1622571012" alt="Calming Chews for Pets">
-      <h3>Calming CBD Chews</h3>
-      <p>Perfect for thunderstorms, travel, or daily anxiety. Your pet will love the flavor!</p>
-      <a href="https://paw.pxf.io/Bneov1" target="_blank">Buy Now</a>
-    </div>
-
-    <div class="product">
-      <img src="https://cdn.shopify.com/s/files/1/0554/4654/7840/products/cbd-topicals-pet-balm_750x.jpg?v=1622570992" alt="CBD Balm for Pets">
-      <h3>CBD Pet Balm</h3>
-      <p>Helps with dry paws, skin irritations, and soothing minor pet discomforts.</p>
-      <a href="https://paw.pxf.io/Bneov1" target="_blank">Buy Now</a>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Training Courses for Pets</h1>
+      <p>Help your pets grow smarter, healthier, and happier with our expert training programs.</p>
+      <a href="#courses" class="btn">Explore Courses</a>
     </div>
   </section>
 
+  <!-- About Section -->
+  <section class="about" id="courses">
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+      <div class="feature">
+        <img src="images/obedience.png" alt="Obedience Training">
+        <h3>Obedience Training</h3>
+        <p>Professional techniques to teach pets good behavior and discipline.</p>
+      </div>
+      <div class="feature">
+        <img src="images/fun.png" alt="Fun Activities">
+        <h3>Fun Activities</h3>
+        <p>Interactive games and exercises to keep pets active and entertained.</p>
+      </div>
+      <div class="feature">
+        <img src="images/experts.png" alt="Expert Trainers">
+        <h3>Expert Trainers</h3>
+        <p>Certified pet trainers with years of experience in behavior management.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2025 ShopnPetCare | Curated by Shaback</p>
+    <p>&copy; 2025 Shopnpetcare. All rights reserved.</p>
+    <p>Follow us: 
+      <a href="#">Instagram</a> | 
+      <a href="#">Facebook</a> | 
+      <a href="#">YouTube</a>
+    </p>
   </footer>
 </body>
 </html>
