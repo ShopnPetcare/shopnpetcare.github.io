@@ -1,93 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ShopnPetCare | Paw CBD</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopnPetCare | Premium Pet Products</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f4f9f6;
       margin: 0;
       padding: 0;
+      background: #fffaf4;
       color: #333;
     }
     header {
-      background-color: #d0f0d0;
-      padding: 2.5rem 1rem;
       text-align: center;
+      padding: 2rem 1rem;
+      background: #f8e9d1;
     }
-    h1 {
-      color: #2b603b;
+    header h1 {
       font-size: 2.5rem;
+      color: #543c1c;
     }
-    p.subtitle {
+    .subtitle {
       font-size: 1.2rem;
-      color: #4b7552;
-      margin-top: 0.5rem;
+      color: #6a5d45;
     }
-    .product-section {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1.5rem;
-      background-color: #ffffff;
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .product {
+      background: #fff;
+      padding: 1rem;
       border-radius: 10px;
-      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       text-align: center;
     }
-    .product-section h2 {
-      color: #2b603b;
-      margin-bottom: 1rem;
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
     }
-    .product-section p {
-      font-size: 1.1rem;
-      line-height: 1.6;
+    .product h3 {
+      color: #3e2f1c;
     }
-    .cta-button {
-      background-color: #4caf50;
-      color: white;
-      padding: 1rem 2rem;
+    .product p {
+      font-size: 0.95rem;
+    }
+    .product a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: #ff7c59;
+      color: #fff;
       text-decoration: none;
       border-radius: 5px;
-      font-size: 1rem;
-      margin-top: 1.5rem;
-      display: inline-block;
-      transition: background-color 0.3s ease;
-    }
-    .cta-button:hover {
-      background-color: #388e3c;
     }
     footer {
-      background-color: #f0f0f0;
-      padding: 1.2rem;
+      background: #543c1c;
+      color: white;
       text-align: center;
+      padding: 1rem;
       font-size: 0.9rem;
-      color: #555;
-      margin-top: 3rem;
-    }
-    img.hero {
-      width: 100%;
-      max-height: 400px;
-      object-fit: cover;
-      border-radius: 8px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>🐾 Welcome to ShopnPetCare</h1>
-    <p class="subtitle">Your trusted source for premium Paw CBD pet products</p>
+    <h1>🐾 ShopnPetCare</h1>
+    <p class="subtitle">Curated premium products for your beloved pet</p>
   </header>
 
-  <div class="product-section">
-    <img src="https://cdn.shopify.com/s/files/1/0253/6561/0606/products/CBD-Oil-Dogs_1000mg-Natural_1024x1024.jpg?v=1614883326" alt="CBD Oil for Dogs" class="hero">
-    <h2>CBD Oil for Dogs</h2>
-    <p>Support your dog's wellness with our premium CBD oil — THC-free, lab-tested, and made from non-GMO hemp grown organically in the USA. Perfect for easing stress, supporting mobility, and boosting daily health.</p>
-    <a class="cta-button" href="https://paw.pxf.io/Bneov1" target="_blank">🛒 Shop Now</a>
-  </div>
+  <section class="products">
+    <div class="product">
+      <img src="https://cdn.shopify.com/s/files/1/0554/4654/7840/files/pet-cbd-bacon-oil-dog_750x.jpg?v=1622571035" alt="CBD Oil for Dogs">
+      <h3>Paw CBD Bacon Oil</h3>
+      <p>Calm your dog’s anxiety with this tasty bacon-flavored CBD oil for pets.</p>
+      <a href="https://paw.pxf.io/Bneov1" target="_blank">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://cdn.shopify.com/s/files/1/0554/4654/7840/products/pawcbd-chicken-cat-treats_750x.jpg?v=1622571472" alt="CBD Treats for Cats">
+      <h3>Paw CBD Cat Treats</h3>
+      <p>Delicious chicken-flavored treats infused with CBD to keep your cat chill and happy.</p>
+      <a href="https://paw.pxf.io/Bneov1" target="_blank">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://cdn.shopify.com/s/files/1/0554/4654/7840/products/calming-chews-pet-cbd_750x.jpg?v=1622571012" alt="Calming Chews for Pets">
+      <h3>Calming CBD Chews</h3>
+      <p>Perfect for thunderstorms, travel, or daily anxiety. Your pet will love the flavor!</p>
+      <a href="https://paw.pxf.io/Bneov1" target="_blank">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://cdn.shopify.com/s/files/1/0554/4654/7840/products/cbd-topicals-pet-balm_750x.jpg?v=1622570992" alt="CBD Balm for Pets">
+      <h3>CBD Pet Balm</h3>
+      <p>Helps with dry paws, skin irritations, and soothing minor pet discomforts.</p>
+      <a href="https://paw.pxf.io/Bneov1" target="_blank">Buy Now</a>
+    </div>
+  </section>
 
   <footer>
-    <p>© 2025 ShopnPetCare. Powered by Paw CBD affiliate program. All rights reserved.</p>
+    <p>© 2025 ShopnPetCare | Curated by Shaback</p>
   </footer>
 </body>
 </html>
