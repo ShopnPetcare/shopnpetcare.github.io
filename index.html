@@ -7,25 +7,41 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f9f9f9;
+      background-color: #f4f9f6;
       margin: 0;
       padding: 0;
-      text-align: center;
+      color: #333;
     }
     header {
-      background-color: #d2f8d2;
-      padding: 2rem;
+      background-color: #d0f0d0;
+      padding: 2.5rem 1rem;
+      text-align: center;
     }
     h1 {
-      color: #2d7730;
+      color: #2b603b;
+      font-size: 2.5rem;
     }
-    .product {
-      background-color: #fff;
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #4b7552;
+      margin-top: 0.5rem;
+    }
+    .product-section {
+      max-width: 900px;
       margin: 2rem auto;
-      padding: 1rem;
+      padding: 1.5rem;
+      background-color: #ffffff;
       border-radius: 10px;
-      max-width: 600px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+    .product-section h2 {
+      color: #2b603b;
+      margin-bottom: 1rem;
+    }
+    .product-section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
     }
     .cta-button {
       background-color: #4caf50;
@@ -33,30 +49,45 @@
       padding: 1rem 2rem;
       text-decoration: none;
       border-radius: 5px;
+      font-size: 1rem;
+      margin-top: 1.5rem;
       display: inline-block;
-      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #388e3c;
     }
     footer {
-      margin-top: 2rem;
-      padding: 1rem;
-      background-color: #eee;
+      background-color: #f0f0f0;
+      padding: 1.2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 3rem;
+    }
+    img.hero {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>🐾 Welcome to ShopnPetCare</h1>
-    <p>Your trusted source for Paw CBD products</p>
+    <p class="subtitle">Your trusted source for premium Paw CBD pet products</p>
   </header>
 
-  <div class="product">
+  <div class="product-section">
+    <img src="https://cdn.shopify.com/s/files/1/0253/6561/0606/products/CBD-Oil-Dogs_1000mg-Natural_1024x1024.jpg?v=1614883326" alt="CBD Oil for Dogs" class="hero">
     <h2>CBD Oil for Dogs</h2>
-    <p>Support your dog's wellness with our THC-free, lab-tested CBD oil.</p>
-    <a class="cta-button" href="https://paw.pxf.io/Bneov1" target="_blank">Shop Now</a>
+    <p>Support your dog's wellness with our premium CBD oil — THC-free, lab-tested, and made from non-GMO hemp grown organically in the USA. Perfect for easing stress, supporting mobility, and boosting daily health.</p>
+    <a class="cta-button" href="https://paw.pxf.io/Bneov1" target="_blank">🛒 Shop Now</a>
   </div>
 
   <footer>
-    <p>© 2025 ShopnPetCare. All rights reserved.</p>
+    <p>© 2025 ShopnPetCare. Powered by Paw CBD affiliate program. All rights reserved.</p>
   </footer>
 </body>
 </html>
